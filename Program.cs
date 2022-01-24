@@ -26,11 +26,6 @@ namespace ClassMetotDemo
             Convert.ToString(musteri1);
 
             Musteri[] musteriler = new Musteri [] { musteri1, musteri2, musteri3 };
-
-            foreach (Musteri musterii in musteriler)
-            {
-
-            }
             MusteriManager musteriManager = new MusteriManager();
 
             musteriManager.MusteriEkle(musteri1);
